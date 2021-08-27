@@ -23,10 +23,10 @@
             if (typeof address === "string"){
                 pluginAddress = address
 
-                console.log("new address: " + address);
+                console.log("adresse: " + address);
             }
 
-            console.log("connecting...");
+            console.log("verbinde...");
 
             try{
                 window.webSocket = new window.WebSocket(`ws://${pluginAddress}/`);

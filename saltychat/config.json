@@ -1,25 +1,28 @@
 {
+  // Variables Guide: https://github.com/saltminede/saltychat-docs/blob/master/setup.md#config-variables
   "VoiceEnabled": true,
-  "ServerUniqueIdentifier": "NMjxHW5psWaLNmFh0+kjnQik7Qc=",
+  "ServerUniqueIdentifier": "0AhkZiwSVUjuFw2rvjpJZPjBUPs=",
   "MinimumPluginVersion": "2.3.0",
   "SoundPack": "default",
-  "IngameChannelId": 25,
-  "IngameChannelPassword": "5V88FWWME615",
-  "SwissChannelIds": [ 61, 62 ],
-  "VoiceRanges": [ 3.5, 8, 15, 32 ],
-  "EnableVoiceRangeNotification": true,
-  "VoiceRangeNotification": "New voice range is {voicerange} metres.",
+  "IngameChannelId": 3,
+  "IngameChannelPassword": "7SkAx2jWDeCJyb9VHwLd",
+  "SwissChannelIds": [ 4 ],
+  "VoiceRanges": [ 3, 8, 15 ],
+  "EnableVoiceRangeNotification": false,
+  "VoiceRangeNotification": "Sprachreichweite: {voicerange} Meter.",
   "RadioType": 4,
-  "EnableRadioHardcoreMode": true,
+  "EnableRadioHardcoreMode": false,
   "UltraShortRangeDistance": 1800.0,
   "ShortRangeDistance": 3000.0,
   "LongRangeDistace": 8000.0,
-  "MegaphoneRange": 120.0,
-  "NamePattern": "[{serverid}] {guid}",
+  "MegaphoneRange": 60.0,
+  "NamePattern": "[{serverid}] FAMILYLIFE",
   "RequestTalkStates": true,
   "RequestRadioTrafficStates": false,
-  "ToggleRange": "F1",
-  "TalkPrimary": "N",
-  "TalkSecondary": "CAPITAL",
-  "TalkMegaphone": "B"
+
+  // Keybinds: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+  "ToggleRange": "OEM_3", // EnterCheatCode
+  "TalkPrimary": "CAPITAL", // PushToTalk
+  "TalkSecondary": "OEM_7", // VehiclePushbikeSprint
+  "TalkMegaphone": "B" // SpecialAbilitySecondary
 }
