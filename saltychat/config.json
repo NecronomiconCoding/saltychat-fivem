@@ -17,6 +17,7 @@
   "LongRangeDistace": 8000.0,
   "MegaphoneRange": 60.0,
   "NamePattern": "[{serverid}] FAMILYLIFE",
+  "VariablePhoneDistortion": true,
   "RequestTalkStates": true,
   "RequestRadioTrafficStates": false,
 
